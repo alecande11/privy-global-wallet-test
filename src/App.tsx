@@ -3,7 +3,7 @@ import { useAddress, useWallet } from "@initia/react-wallet-widget";
 
 function App() {
   const address = useAddress();
-  const { onboard, view, requestTx } = useWallet();
+  const { onboard, view } = useWallet();
 
   return (
     <div>
